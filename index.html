@@ -1,36 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<div class='onesignal-customlink-container'></div>
-    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-<script>
-  window.OneSignalDeferred = window.OneSignalDeferred || [];
-  OneSignalDeferred.push(async function(OneSignal) {
-    await OneSignal.init({
-      appId: "e0f0cdd7-fcae-4422-8c7f-89d6f11d2de3",
-    });
-  });
-</script>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Подписка на уведомления</title>
-    <!-- Подключаем SDK OneSignal -->
-    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-    <script>
-        window.OneSignalDeferred = window.OneSignalDeferred || [];
-        OneSignalDeferred.push(async function(OneSignal) {
-            await OneSignal.init({
-                appId: "e0f0cdd7-fcae-4422-8c7f-89d6f11d2de3",  <!-- Замените на ваш App ID из OneSignal -->
-                notifyButton: {
-                    enable: true,  // Включает кнопку для подписки
-                },
-            });
-        });
-    </script>
-</head>
-<body>
-    <h1>Подписка на уведомления</h1>
-    <p>Нажмите на кнопку ниже, чтобы подписаться на уведомления.</p>
-</body>
+<script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
 </html>
